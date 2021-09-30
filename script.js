@@ -8,6 +8,7 @@ document.querySelector(".hamburger-menu").addEventListener("click", () => {
   document.querySelector(".container").classList.toggle("change");
 });
 
+//changes made in query selector
 document.querySelector(".scroll-btn").addEventListener("click", () => {
   document.querySelector("html").style.scrollBehavior = "smooth";
   setTimeout(() => {
