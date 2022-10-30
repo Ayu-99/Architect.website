@@ -4,6 +4,7 @@ window.onload = () => {
   }, 4000);
 };
 
+//changes done
 document.querySelector(".hamburger-menu").addEventListener("click", () => {
   document.querySelector(".container").classList.toggle("change");
 });
